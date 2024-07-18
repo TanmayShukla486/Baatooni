@@ -1,0 +1,19 @@
+{
+  "name": "background",
+  "version": "1.0.0",
+  "description": "background process that interact with databases to reduce redundancies",
+  "main": "service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon service.js"
+  },
+  "author": "Tanmay Shukla",
+  "license": "ISC",
+  "dependencies": {
+    "date-and-time": "^3.4.1",
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.1",
+    "nodemon": "^3.1.4"
+  }
+}
