@@ -92,7 +92,7 @@ const Login = () => {
                 </div>
               </div>
               <Button
-                className="ml-24"
+                className="ml-44 transition hover:translate-y-2 hover:scale-125 hover:bg-gradient-to-br from-start to-end ease-in duration-200"
                 onPress={onSubmitClick}
               >
                 Submit
