@@ -3,6 +3,7 @@ import HomePage from './HomePage.tsx';
 import Trial from './Trial.tsx';
 import Registration from './Registration.tsx';
 import Login from './Login.tsx';
+import Onboarding from './Onboarding.tsx';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: '/login',
     element: <Login />,
+  },
+  {
+    path: '/onboarding',
+    element: <Onboarding />,
   },
 ]);
 
