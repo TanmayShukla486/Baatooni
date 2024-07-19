@@ -14,6 +14,7 @@ export default {
     extend: {
       size: {
         ninety: '90%',
+        almost_full: '95%',
       },
     },
   },
