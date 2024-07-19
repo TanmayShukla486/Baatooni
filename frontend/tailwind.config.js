@@ -7,14 +7,20 @@ export default {
     './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    colors: {
-      start: '#021861',
-      end: '#521638',
-    },
     extend: {
+      colors: {
+        start: '#021861',
+        end: '#521638',
+      },
       size: {
         ninety: '90%',
         almost_full: '95%',
+      },
+      width: {
+        ninety: '90%',
+      },
+      transitionPropert: {
+        spacing: 'margin, padding',
       },
     },
   },
