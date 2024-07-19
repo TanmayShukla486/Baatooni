@@ -1,9 +1,9 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import HomePage from './HomePage.tsx';
 import Trial from './Trial.tsx';
-import Registration from './Registration.tsx';
-import Login from './Login.tsx';
-import Onboarding from './Onboarding.tsx';
+import Registration from './User/Registration.tsx';
+import Login from './User/Login.tsx';
+import Onboarding from './User/Onboarding.tsx';
 
 const router = createBrowserRouter([
   {
