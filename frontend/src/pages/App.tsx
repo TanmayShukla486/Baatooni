@@ -4,6 +4,7 @@ import Trial from './Trial.tsx';
 import Registration from './User/Registration.tsx';
 import Login from './User/Login.tsx';
 import Onboarding from './User/Onboarding.tsx';
+import Dashboard from './User/Dashboard.tsx';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
   {
     path: '/onboarding',
     element: <Onboarding />,
+  },
+  {
+    path: '/dashboard',
+    element: <Dashboard />,
   },
 ]);
 
