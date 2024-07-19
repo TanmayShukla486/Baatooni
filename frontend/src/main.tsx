@@ -7,7 +7,7 @@ import { NextUIProvider } from '@nextui-org/react';
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <NextUIProvider>
-      <div className="h-[100vh] dark text-foreground bg-background">
+      <div className="h-[100vh] dark text-foreground bg-background overflow-auto scrollbar-hide">
         <App />
       </div>
     </NextUIProvider>
