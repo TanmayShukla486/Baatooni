@@ -11,7 +11,11 @@ export default {
       start: '#021861',
       end: '#521638',
     },
-    extend: {},
+    extend: {
+      size: {
+        ninety: '90%',
+      },
+    },
   },
   darkMode: 'class',
   plugins: [nextui()],
