@@ -14,7 +14,7 @@ const Dashboard = () => {
               </span>
             </h1>
           </div>
-          <div>
+          <div className="transition hover:scale-110 ease-linear duration-200">
             <Image
               src="./logo.png"
               className="w-[75px] h-[75px] mr-12 mt-8 -mb-8 rounded-full"
